@@ -42,3 +42,4 @@ def qtyCaracter(arr):
     return intervalName
 
 print('Nome com mais caracteres: ', qtyCaracter(name))
+

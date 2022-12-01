@@ -5,7 +5,8 @@ import csv
 def retrieve_books(file):
     return json.load(file)
 
-
+def retrieve ():
+    print('Legal')
 
 def count_books_by_categories(books):
     categories = {}

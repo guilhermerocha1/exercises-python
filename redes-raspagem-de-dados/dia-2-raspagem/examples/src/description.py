@@ -12,6 +12,6 @@ detail_page_url = URL_BASE + href
 details_response = requests.get(detail_page_url)
 details_selector = Selector(text=details_response.text)
 
-details = details_selector.css(".product_page p::text").get()
+details = details_selector.css(".product_page h2::text").get()
 
 print(details)

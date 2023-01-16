@@ -22,3 +22,24 @@
 # print('Média de valores:', average(numbers))
 
 # exercicio 3
+# n > 1
+
+# n = 5
+# last = 0
+
+# while last < n:
+#     print(5 * '*')
+#     last += 1
+
+# exercicio 4
+name = ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"]
+
+def qtyCaracter(arr):
+    intervalName = ''
+    for name in arr:
+        if len(name) > len(intervalName):
+            intervalName = name
+    return intervalName
+
+print('Nome com mais caracteres: ', qtyCaracter(name))
+
